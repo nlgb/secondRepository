@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F21AB51C3C490A00DC0E07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F21AB41C3C490A00DC0E07 /* main.m */; };
+		D0F21AB81C3C490A00DC0E07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F21AB71C3C490A00DC0E07 /* AppDelegate.m */; };
+		D0F21ABB1C3C490A00DC0E07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F21ABA1C3C490A00DC0E07 /* ViewController.m */; };
+		D0F21ABE1C3C490A00DC0E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F21ABC1C3C490A00DC0E07 /* Main.storyboard */; };
+		D0F21AC01C3C490A00DC0E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F21ABF1C3C490A00DC0E07 /* Assets.xcassets */; };
+		D0F21AC31C3C490A00DC0E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F21AC11C3C490A00DC0E07 /* LaunchScreen.storyboard */; };
+		D0F21ACE1C3C490A00DC0E07 /* fithubDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F21ACD1C3C490A00DC0E07 /* fithubDemoTests.m */; };
+		D0F21AD91C3C490A00DC0E07 /* fithubDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F21AD81C3C490A00DC0E07 /* fithubDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F21ACA1C3C490A00DC0E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F21AA81C3C490A00DC0E07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F21AAF1C3C490A00DC0E07;
+			remoteInfo = fithubDemo;
+		};
+		D0F21AD51C3C490A00DC0E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F21AA81C3C490A00DC0E07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F21AAF1C3C490A00DC0E07;
+			remoteInfo = fithubDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F21AB01C3C490A00DC0E07 /* fithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fithubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F21AB41C3C490A00DC0E07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F21AB61C3C490A00DC0E07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0F21AB71C3C490A00DC0E07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0F21AB91C3C490A00DC0E07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0F21ABA1C3C490A00DC0E07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0F21ABD1C3C490A00DC0E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0F21ABF1C3C490A00DC0E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F21AC21C3C490A00DC0E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0F21AC41C3C490A00DC0E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F21AC91C3C490A00DC0E07 /* fithubDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fithubDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F21ACD1C3C490A00DC0E07 /* fithubDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fithubDemoTests.m; sourceTree = "<group>"; };
+		D0F21ACF1C3C490A00DC0E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F21AD41C3C490A00DC0E07 /* fithubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fithubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F21AD81C3C490A00DC0E07 /* fithubDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fithubDemoUITests.m; sourceTree = "<group>"; };
+		D0F21ADA1C3C490A00DC0E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F21AAD1C3C490A00DC0E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F21AC61C3C490A00DC0E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F21AD11C3C490A00DC0E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F21AA71C3C490A00DC0E07 = {
+			isa = PBXGroup;
+			children = (
+				D0F21AB21C3C490A00DC0E07 /* fithubDemo */,
+				D0F21ACC1C3C490A00DC0E07 /* fithubDemoTests */,
+				D0F21AD71C3C490A00DC0E07 /* fithubDemoUITests */,
+				D0F21AB11C3C490A00DC0E07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F21AB11C3C490A00DC0E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F21AB01C3C490A00DC0E07 /* fithubDemo.app */,
+				D0F21AC91C3C490A00DC0E07 /* fithubDemoTests.xctest */,
+				D0F21AD41C3C490A00DC0E07 /* fithubDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F21AB21C3C490A00DC0E07 /* fithubDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D0F21AB61C3C490A00DC0E07 /* AppDelegate.h */,
+				D0F21AB71C3C490A00DC0E07 /* AppDelegate.m */,
+				D0F21AB91C3C490A00DC0E07 /* ViewController.h */,
+				D0F21ABA1C3C490A00DC0E07 /* ViewController.m */,
+				D0F21ABC1C3C490A00DC0E07 /* Main.storyboard */,
+				D0F21ABF1C3C490A00DC0E07 /* Assets.xcassets */,
+				D0F21AC11C3C490A00DC0E07 /* LaunchScreen.storyboard */,
+				D0F21AC41C3C490A00DC0E07 /* Info.plist */,
+				D0F21AB31C3C490A00DC0E07 /* Supporting Files */,
+			);
+			path = fithubDemo;
+			sourceTree = "<group>";
+		};
+		D0F21AB31C3C490A00DC0E07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F21AB41C3C490A00DC0E07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F21ACC1C3C490A00DC0E07 /* fithubDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F21ACD1C3C490A00DC0E07 /* fithubDemoTests.m */,
+				D0F21ACF1C3C490A00DC0E07 /* Info.plist */,
+			);
+			path = fithubDemoTests;
+			sourceTree = "<group>";
+		};
+		D0F21AD71C3C490A00DC0E07 /* fithubDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F21AD81C3C490A00DC0E07 /* fithubDemoUITests.m */,
+				D0F21ADA1C3C490A00DC0E07 /* Info.plist */,
+			);
+			path = fithubDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F21AAF1C3C490A00DC0E07 /* fithubDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F21ADD1C3C490A00DC0E07 /* Build configuration list for PBXNativeTarget "fithubDemo" */;
+			buildPhases = (
+				D0F21AAC1C3C490A00DC0E07 /* Sources */,
+				D0F21AAD1C3C490A00DC0E07 /* Frameworks */,
+				D0F21AAE1C3C490A00DC0E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fithubDemo;
+			productName = fithubDemo;
+			productReference = D0F21AB01C3C490A00DC0E07 /* fithubDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F21AC81C3C490A00DC0E07 /* fithubDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F21AE01C3C490A00DC0E07 /* Build configuration list for PBXNativeTarget "fithubDemoTests" */;
+			buildPhases = (
+				D0F21AC51C3C490A00DC0E07 /* Sources */,
+				D0F21AC61C3C490A00DC0E07 /* Frameworks */,
+				D0F21AC71C3C490A00DC0E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F21ACB1C3C490A00DC0E07 /* PBXTargetDependency */,
+			);
+			name = fithubDemoTests;
+			productName = fithubDemoTests;
+			productReference = D0F21AC91C3C490A00DC0E07 /* fithubDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0F21AD31C3C490A00DC0E07 /* fithubDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F21AE31C3C490A00DC0E07 /* Build configuration list for PBXNativeTarget "fithubDemoUITests" */;
+			buildPhases = (
+				D0F21AD01C3C490A00DC0E07 /* Sources */,
+				D0F21AD11C3C490A00DC0E07 /* Frameworks */,
+				D0F21AD21C3C490A00DC0E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F21AD61C3C490A00DC0E07 /* PBXTargetDependency */,
+			);
+			name = fithubDemoUITests;
+			productName = fithubDemoUITests;
+			productReference = D0F21AD41C3C490A00DC0E07 /* fithubDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F21AA81C3C490A00DC0E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sw;
+				TargetAttributes = {
+					D0F21AAF1C3C490A00DC0E07 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D0F21AC81C3C490A00DC0E07 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D0F21AAF1C3C490A00DC0E07;
+					};
+					D0F21AD31C3C490A00DC0E07 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D0F21AAF1C3C490A00DC0E07;
+					};
+				};
+			};
+			buildConfigurationList = D0F21AAB1C3C490A00DC0E07 /* Build configuration list for PBXProject "fithubDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F21AA71C3C490A00DC0E07;
+			productRefGroup = D0F21AB11C3C490A00DC0E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F21AAF1C3C490A00DC0E07 /* fithubDemo */,
+				D0F21AC81C3C490A00DC0E07 /* fithubDemoTests */,
+				D0F21AD31C3C490A00DC0E07 /* fithubDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F21AAE1C3C490A00DC0E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F21AC31C3C490A00DC0E07 /* LaunchScreen.storyboard in Resources */,
+				D0F21AC01C3C490A00DC0E07 /* Assets.xcassets in Resources */,
+				D0F21ABE1C3C490A00DC0E07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F21AC71C3C490A00DC0E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F21AD21C3C490A00DC0E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F21AAC1C3C490A00DC0E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F21ABB1C3C490A00DC0E07 /* ViewController.m in Sources */,
+				D0F21AB81C3C490A00DC0E07 /* AppDelegate.m in Sources */,
+				D0F21AB51C3C490A00DC0E07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F21AC51C3C490A00DC0E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F21ACE1C3C490A00DC0E07 /* fithubDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F21AD01C3C490A00DC0E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F21AD91C3C490A00DC0E07 /* fithubDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F21ACB1C3C490A00DC0E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F21AAF1C3C490A00DC0E07 /* fithubDemo */;
+			targetProxy = D0F21ACA1C3C490A00DC0E07 /* PBXContainerItemProxy */;
+		};
+		D0F21AD61C3C490A00DC0E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F21AAF1C3C490A00DC0E07 /* fithubDemo */;
+			targetProxy = D0F21AD51C3C490A00DC0E07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F21ABC1C3C490A00DC0E07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F21ABD1C3C490A00DC0E07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F21AC11C3C490A00DC0E07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F21AC21C3C490A00DC0E07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F21ADB1C3C490A00DC0E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0F21ADC1C3C490A00DC0E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F21ADE1C3C490A00DC0E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fithubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.fithubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0F21ADF1C3C490A00DC0E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fithubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.fithubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0F21AE11C3C490A00DC0E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fithubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.fithubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fithubDemo.app/fithubDemo";
+			};
+			name = Debug;
+		};
+		D0F21AE21C3C490A00DC0E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fithubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.fithubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fithubDemo.app/fithubDemo";
+			};
+			name = Release;
+		};
+		D0F21AE41C3C490A00DC0E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fithubDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.fithubDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fithubDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0F21AE51C3C490A00DC0E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fithubDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.fithubDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fithubDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F21AAB1C3C490A00DC0E07 /* Build configuration list for PBXProject "fithubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F21ADB1C3C490A00DC0E07 /* Debug */,
+				D0F21ADC1C3C490A00DC0E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F21ADD1C3C490A00DC0E07 /* Build configuration list for PBXNativeTarget "fithubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F21ADE1C3C490A00DC0E07 /* Debug */,
+				D0F21ADF1C3C490A00DC0E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0F21AE01C3C490A00DC0E07 /* Build configuration list for PBXNativeTarget "fithubDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F21AE11C3C490A00DC0E07 /* Debug */,
+				D0F21AE21C3C490A00DC0E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0F21AE31C3C490A00DC0E07 /* Build configuration list for PBXNativeTarget "fithubDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F21AE41C3C490A00DC0E07 /* Debug */,
+				D0F21AE51C3C490A00DC0E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F21AA81C3C490A00DC0E07 /* Project object */;
+}
